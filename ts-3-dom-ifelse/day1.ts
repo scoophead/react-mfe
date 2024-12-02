@@ -73,7 +73,7 @@ let user2:User = {
     status:false
 }
 
-const UserArea:HTMLDivElement = document.getElementById('users') as HTMLDivElement
+const UserArea:HTMLHeadingElement = document.getElementById('users') as HTMLHeadingElement
 
 
 function UserStatus(User): void{
@@ -94,8 +94,4 @@ UserStatus(user1)
 UserStatus(user2)
 
 
-
-
 }
-
-
